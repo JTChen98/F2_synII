@@ -1,7 +1,7 @@
 require('hglm')
 
-geno <- read.table('~/Desktop/1000seq/data/BYxRM_GenoData.txt', header = TRUE)
-load('~/Desktop/1000seq_synII/data/cross_synII_res.Rdata')
+geno <- read.table('~/Desktop/BYxRM_GenoData.txt', header = TRUE)
+load('~/Desktop/cross_synII_res.Rdata')
 
 trait <- names(cross_synII_res$pheno)
 
@@ -22,6 +22,6 @@ for (i in 1:length(trait)) {
   } else {
     model <- hglm(y = pheno_synII_res[,phe], X = matrix(1, nrow(A), 1), Z = Z)
   }
-  target <- model$varRanef/(model$varRanef + model$varFix)
+  target <- data.frame(h2 = model$varRanef/(model$varRanef + model$varFix), trait = phe)
   c <- rbind(c, target)
 }
