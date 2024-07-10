@@ -14,7 +14,7 @@ source('~/Desktop/Yeast/Round/1000seq/reference/R_code/QTL_mappingFx.R')
 
 # Loads R/QTL object 'cross' (contains average phenotype for each segregant for each trait,
 # markers for QTL mapping and genetic map
-load('~/Desktop/Yeast/Round/BY4741_synII/BY4741/data/cross_BY4741_res.Rdata')
+load('~/Desktop/Yeast/Round/BY4741_synII/BY4741/data/cross_BY_res.Rdata')
 cross <- cross_BY4741_res
 
 # QTL Mapping ################################################################################################# 
