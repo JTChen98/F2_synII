@@ -1,6 +1,6 @@
 require('hglm')
 
-# Loads the genotype of segregants and object 'cross' (contains average phenotype for each segregant for each trait).
+# Load the genotype of segregants and object 'cross' (contains average phenotype for each segregant for each trait).
 geno <- read.table('~/Desktop/BYxRM_GenoData.txt', header = TRUE)
 load('~/Desktop/cross_synII_res.Rdata')
 
