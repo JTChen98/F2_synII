@@ -24,8 +24,17 @@
 ## Analysis
 
 ### QTL mapping
-Gene expressions from the RNA-sequencing experiment were quantified using XAEM v0.1.2 (https://github.com/WenjiangDeng/XAEM/), the code can be found in XAEM.sh.
+
+QTL analysis was performed using the R package qtl v1.66 (https://rqtl.org/), the code can be found in QTL.mapping.R.
+
+### heritability analysis
 
 Heritability analysis was performed using the R package hglm v2.2.1 (https://cran.r-project.org/web/packages/hglm/), the code can be found in h2.estimate.R.
 
-QTL analysis was performed using the R package qtl v1.66 (https://rqtl.org/), the code can be found in QTL.mapping.R.
+### gene expression
+
+Gene expressions from the RNA-sequencing experiment were quantified using XAEM v0.1.2 (https://github.com/WenjiangDeng/XAEM/), the code can be found in XAEM.sh.
+
+
+
+
