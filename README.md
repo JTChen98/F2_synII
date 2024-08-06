@@ -3,19 +3,19 @@
 
     The genotype data for 1,008 F2 intercross segregants.
 
--   pheno_raw_BY.Rdata
+-   [pheno_raw_BY.Rdata](https://github.com/JTChen98/F2_synII/blob/main/Data/pheno_raw_BY.Rdata)
     
     Contains an R list object called 'pheno_raw_BY'. Each element in the list is a different phenotype. This file contains replicate the measurements for each phenotype and segregant in BY group, where each of the F2 haploid individuals was mated with lab strains derived from BY4741.
     
--   pheno_raw_synII.Rdata
+-   [pheno_raw_synII.Rdata](https://github.com/JTChen98/F2_synII/blob/main/Data/pheno_raw_synII.Rdata)
     
     Contains an R list object called 'pheno_raw_synII'. Each element in the list is a different phenotype. This file contains replicate the measurements for each phenotype and segregant in synII group, where each of the F2 haploid individuals was mated with the same lab strains but whose chromosome II had been replaced by the synthetic version.
 
--   cross_BY_res.Rdata
+-   [cross_BY_res.Rdata](https://github.com/JTChen98/F2_synII/blob/main/Data/cross_BY_res.Rdata)
    
     Contains an R/QTL cross object called 'cross_BY_res', with average phenotype residuals for each segregant in BY group and genotypes calls for each segregant. Also contains the genetic map.
 
--   cross_synII_res.Rdata
+-   [cross_synII_res.Rdata](https://github.com/JTChen98/F2_synII/blob/main/Data/cross_synII_res.Rdata)
    
     Contains an R/QTL cross object called 'cross_synII_res', with average phenotype residuals for each segregant in synII group and genotypes calls for each segregant. Also contains the genetic map.
 
