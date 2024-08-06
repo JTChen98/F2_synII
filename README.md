@@ -27,14 +27,44 @@
 
 QTL analysis was performed using the R package [qtl v1.66](https://rqtl.org/), the code can be found in [QTL.mapping.R](https://github.com/JTChen98/F2_synII/blob/main/Code/QTL.mapping.R).
 
-### Heritability analysis
+1.
+
+2.
+
+3.
+
+### Estimating heritability
 
 Heritability analysis was performed using the R package [hglm v2.2.1](https://cran.r-project.org/web/packages/hglm/), the code can be found in [h2.estimate.R](https://github.com/JTChen98/F2_synII/blob/main/Code/h2.estimate.R).
+
+1.
+
+2.
+
+3.
 
 ### Gene expression quantification
 
 Gene expressions from the RNA-sequencing experiment were quantified using [XAEM v0.1.2](https://github.com/WenjiangDeng/XAEM/), the code can be found in [XAEM.sh](https://github.com/JTChen98/F2_synII/blob/main/Code/XAEM.sh).
 
+1.
 
+2.
 
+3.
 
+### Estimating genetic effect
+
+1.
+
+2.
+
+3.
+
+### Estimating Epistasis effect
+
+1.
+
+2.
+
+3.
