@@ -19,7 +19,7 @@ for(i in 1:7){
   if(length(naidx) > 0){
     synII <- gwas(y = yy_synII[-naidx], X = xx[-naidx,])
     }else{synII <- gwas(y = yy_synII, X = xx)}
-  yy_BY <- scale(cross_BY4741_res$pheno[[i]])
+  yy_BY <- scale(cross_BY_res$pheno[[i]])
   naidx <- which(is.na(yy_BY))
   if(length(naidx) > 0){
     BY4741 <- gwas(y = yy_BY[-naidx], X = xx[-naidx,])
