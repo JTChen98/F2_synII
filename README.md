@@ -135,3 +135,9 @@ Rscript Create_count_matrix.R workdir=/path/to/XAEM_project core=8
 ``` sh
 Rscript AEM_update_X_beta.R workdir=/path/to/XAEM_project core=8 design.matrix=X_matrix.RData isoform.out=XAEM_isoform_expression.RData paralog.out=XAEM_paralog_expression.RData merge.paralogs=FALSE isoform.method=average remove.ycount=TRUE
 ```
+
+## Citation
+
+If you want to cite this paper:
+
+-   Chen, J., Zheng, J., Wang, Y., Wang, Y., Feng, X., Li, T., Chen, X., Liu, L., Fu, X., Shen, Y., Shen, X. The nature of supernature: Unveiling the doppelgänger effect of a synthetic chromosome. (2024)  
