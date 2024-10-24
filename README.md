@@ -19,6 +19,10 @@
    
     Contains an R/QTL cross object called 'cross_synII_res', with average phenotype residuals for each segregant in synII group and genotypes calls for each segregant. Also contains the genetic map.
 
+-   [align.txt](https://github.com/JTChen98/F2_synII/blob/main/Data/align.txt)
+
+    The alignment result between the wild-type chomosome II reference sequence and synII.
+
 **Note: We performed multiple regression for the phenotypes with the following covariates: effect of growth on control media YPD, 384-well measurement plate number, row, column, and round. The residuals were used for downstream analysis.**
 
 ## Analysis
